@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <style>
+       /*css: internal */
+       /* selector: access elements */
+       /* tag name  */
+       p{
+         color: brown;
+         background: none;
+
+       }
+       .demo1{
+        background: orange;
+       }
+       .demo{
+        background: none;
+       }
+       /* id id_name */
+       #demo{
+        background: none;
+       }
+       secton{
+        background: red;
+       }
+       .container1 span{
+        background: blue;
+       }
+       #demo,.demo,.container1 span{
+
+       }
+       /* colors */
+       #demo{
+        color: blue;
+        color: rgb(34, 207,8);
+        color: #876aef;
+        color: rgba(34, 207,8,o.4);
+        color: rgba(214, 15, 15, 0.573);
+        color: #12345678;
+        /*  */
+        padding: 30px;
+        background: #876aef;
+        background:transparent;
+        background:linear-gradient(red,blue);
+        background:conic-gradient(red,blue);
+        background:radial-gradient(red,blue);
+        background-image: url(river.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* top,left,bottom,center */
+        background-position: top;
+
+
+
+       }
+       #demo1{
+        /* typo":text.fonts */
+        font-size: 20px;
+        font-size: 2rem;
+        font-size: small;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
+        text-align: left;
+        text-align: right;
+        text-align: center;
+        letter-spacing: 3px;
+        word-spacing: bold;
+        letter-spacing: normal;
+        word-spacing: normal;
+
+        font-weight: light;
+        font-weight: bold;
+        font-weight: 100;
+        font-weight: 900;
+        text-decoration: underline;
+        text-decoration: line-through;
+        text-decoration: overline;
+        text-decoration: none ;
+
+
+       }
+        
+    </style>
+
+    <!-- externalcss: .css -->
+     <link rel="stylesheet" href="class3.css"
+</head>
+<body>
+    <!-- css inline -->
+     <p style="color: brown;">Lorem ipsum
+         dolor sit amet consectetur adipisicing
+          elit. Delectus, accusantium.</p>
+      <section class="demo"> lorem</section>
+      <section class="demo">lorem</section>
+      <section class="demo1">lorem</section>
+
+      <p id="demo">lorem</p>
+      <p id="demo1">lorem</p>
+      <section class="container1">
+        <span> lorem </span>
+        <span> lorem </span>
+      </section>
+        <span> lorem </span>
+
+</body>
+</html>
