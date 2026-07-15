@@ -4,17 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       body{
+        text-align: center;
+        margin-top: 20%;
+        box-shadow: 5px;
+        padding: 10px;
+        box: sizing 10%;
+       }
+       form{
+        border: 3px solid rgb(206, 202, 202);
+       }
+       form input.prank{
+        border-radius: 3px;
+        width: 170px; 
+        padding: 10px;
+       }
+       form input.prank1{
+        border-radius: 3px;
+        width: 170px;
+        padding:10px ;
+       }
+       .section-1{
+        display: flex;
+       }
+       div{  
+        margin-left: 10%;
+        gap: 90px;
+       }
+
+
+       
+       
+    
+
+       
+
+       
+        
+    </style>
 </head>
 <body>
+    
     <form action="" method="post">
-        <label for=""> entry your recover email</label>
-        <input type="password" required name="username"/>
+          <h1>Welcome Back</h1>
+        <input class="prank" type="password"placeholder="Email address or Username" required name="username"/></B><BR><BR>
 
-        <label for="">password</label>
-        <input type="password" required name="password"/>
-        <p> <a href="Forgot-password.html">Forgot password</a></p>
-        <button type="submit" >send link </button>
-        <p> dont have an account<a href="sign-up.html">sign up</a></p>
+        <input class="prank1" type="password" placeholder="Password" name="password"/><br><br>
+        <div class="section-1">
+            <div>
+               <input class="prank2" type="checkbox"> Remember for 30 days
+             <p class="prank3"></p>
+            </div>
+            <a href="Forgot-password.html">Forgot password</a>
+        </div>
+        <button type="submit" placeholder=""send  >send link </button>
+        <p> dont have an account?<a href="sign-up.html">sign up</a></p>
     </form>
 </body>
 </html>
