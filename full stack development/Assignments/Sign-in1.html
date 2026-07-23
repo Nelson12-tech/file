@@ -11,7 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 body {
     display: flex;
@@ -19,6 +19,10 @@ body {
     align-items: center;
     background:blue;
     padding: 30px;
+}
+
+.fa-brands.fa-web-awesome.fa-5x{
+    color: red;
 }
 
 /* Glassmorphism card design */
@@ -135,14 +139,13 @@ h2 {
 
 .signup-link a {
     color: blue;
-    text-decoration: non;
+    text-decoration: none;
     font-weight: 600;
 }
 
 .signup-link a:hover {
     text-decoration: underline;
 }
-
     </style>
 </head>
 <body>
@@ -155,9 +158,11 @@ h2 {
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome for Social Media Icons -->
     <link rel="stylesheet" href="https://cloudflare.com">
+    <script src="https://kit.fontawesome.com/1e113151c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="login-container">
+        <i class="fa-brands fa-web-awesome fa-5x"></i>
         <h2>Welcome Back</h2>
         <p class="subtitle">Please enter your details to sign in</p>
 
@@ -187,8 +192,5 @@ h2 {
         </div>
         <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
     </div>
-</body>
-</html>
-
 </body>
 </html>
